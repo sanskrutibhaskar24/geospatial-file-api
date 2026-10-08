@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <Document>
+
+        <name>Geospatial API Test Data</name>
+
+        <Placemark>
+            <name>Test Polygon</name>
+            <description>Sample polygon for area calculation</description>
+            <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>
+                            73.8500,18.5200,0
+                            73.8510,18.5200,0
+                            73.8510,18.5210,0
+                            73.8500,18.5210,0
+                            73.8500,18.5200,0
+                        </coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+
+        <Placemark>
+            <name>Test Line</name>
+            <description>Sample LineString for length calculation</description>
+            <LineString>
+                <coordinates>
+                    73.8500,18.5200,0
+                    73.8520,18.5220,0
+                </coordinates>
+            </LineString>
+        </Placemark>
+
+        <Placemark>
+            <name>Test Point</name>
+            <description>Sample point with no measurement</description>
+            <Point>
+                <coordinates>73.8505,18.5205,0</coordinates>
+            </Point>
+        </Placemark>
+
+    </Document>
+</kml>
